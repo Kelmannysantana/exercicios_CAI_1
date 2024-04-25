@@ -1,0 +1,228 @@
+1-
+
+a= input("digite o primeiro número")
+b= input("digite o segundo número")
+if   a > b: 
+ print ("o valor A é maior") 
+elif b > a: 
+ print ("o valor B é maior") 
+else:
+    print ("os valores são iguais")
+
+
+
+
+2- 
+
+n= input("digite um número positivo ou negativo") 
+n= int(n)
+if n >0: 
+  print ("positivo") 
+else: 
+  print ("negativo") 
+
+
+
+
+
+3-
+
+sexo= input("digite m para sexo masculino e f para sexo feminino") 
+if sexo == "m" or sexo == "M": 
+ print ("sexo masculino")  
+elif sexo == "f" or sexo == "f":  
+ print ("sexo feminino")  
+else: 
+ print ("valor inválido") 
+
+
+
+
+
+4-
+
+letra= input("digite uma letra") 
+if letra =="a" or letra =="A" or letra =="e" or letra =="E" or letra =="i" or letra =="I" or letra  =="o" or letra =="O" or letra =="u" or letra =="U": 
+ print ("é uma vogal") 
+else: 
+ print ("não é uma vogal") 
+
+
+
+
+
+
+5-
+
+parcial1= float(input("digite a primeira nota do aluno"))
+parcial2= float(input("digite a segunda nota do aluno"))
+media = (parcial1 + parcial2) /2 
+if media ==10: 
+  print ("aprovado com distinção") 
+elif media>= 7: 
+  print ("aprovado") 
+elif media<7: 
+  print ("reprovado")
+
+
+
+
+
+6-
+
+a= int(input("digite o primeiro número")) 
+b= int(input("digite o segundo número"))  
+c= int(input("digite o terceiro número")) 
+if a > b and a > c: 
+ print ("a é maior número",a) 
+elif b > a and b > c:
+  print  ("b é maior número",b) 
+elif c > a and c > b: 
+ print ("c é maior número",c) 
+
+
+
+
+
+
+7-
+
+m= float(input("digite o primeiro número")) 
+f= float(input("digite o segundo número")) 
+c= float(input("digite o terceiro número")) 
+if m > f and m > c: 
+  print("o valor m é o maior"),m 
+if f > c and f > m: 
+  print ("valor f é maior"),f 
+if c > m and c > f: 
+  print ("valor c é maior"),c 
+if m < f and m <c: 
+  print ("valor m menor")
+if f < c and f <m: 
+  print ("valor f menor") 
+if c < m and c < f: 
+  print ("valor c menor") 
+elif m == f: 
+  print ("valor M e F são iguias")
+elif f == c: 
+ print ("valor F e C são iguais") 
+elif c == m: 
+ print ("valor M e C são iguias") 
+
+
+
+
+
+
+
+
+8-
+
+a= float(input("digite o primeiro preço")) 
+b= float(input("digite o segundo preço")) 
+c= float(input("digite o terceiro preço")) 
+if  a < b and a < c: 
+ print ("valor a é o menor preço"),a 
+if b < c and b < a: 
+  print ("valor b é menor preço"),b 
+if c < a and c < b:
+  print ("valor c é o menor preço"),c 
+
+
+
+
+
+
+
+
+
+
+9-
+
+a= float(input("digite o primero número")) 
+b= float(input("digitei o segundo número")) 
+c= float(input("digite o terceito número")) 
+if a > b > c: 
+  print("a,b,c") 
+if a > c > b: 
+  print("a,c,b") 
+if b > c > a: 
+  print("b,c,a") 
+if b > a > c: 
+  print("b,a,c") 
+if c > a > b: 
+  print("c,a,b")
+if c > b > a: 
+  print("c,b,a") 
+
+
+
+
+
+
+
+
+
+
+
+10-
+
+turno= input("digite seu turno") 
+if turno =="m" or turno == "M": 
+ print ("bom dia") 
+elif turno =="v" or turno == "V":
+ print ("boa tarde") 
+elif turno =="n" or turno == "N": 
+ print ("boa noite")
+else: 
+  (m,v,n)
+ print ("valor ivalido")
+
+
+
+
+
+
+
+
+
+
+11-
+
+n1= float(input("digite um primeiro número")) 
+n2= float(input("digite um segundo número"))  
+if n1 > n2: 
+  print("o valor n1 é maior e o n2 menor") 
+if n2 > n1: 
+  print("o valor n2 é maior e o valor n1 menor") 
+elif n1 == n2: 
+ print ("o valor n1 e n2 são iguais") 
+
+
+
+
+
+
+
+
+
+
+12-
+
+calendario= input("digite o dia da semana") 
+if calendario == "1" or calendario =="1": 
+  print ("hoje é domingo") 
+elif calendario == "2" or calendario =="2":
+  print ("hoje é segunda-feira") 
+elif calendario == "3" or calendario =="3": 
+  print ("hoje é terça-feira") 
+elif calendario == "4" or calendario =="4": 
+  print ("hoje é quarta-feira") 
+elif calendario == "5" or calendario =="5": 
+  print ("hoje é quinta-feira") 
+elif calendario == "6" or calendario =="6":
+  print ("hoje é sexta-feira")
+elif calendario == "7" or calendario =="7": 
+  print ("hoje é sábado") 
+else:
+  print ("valor invalido") 
